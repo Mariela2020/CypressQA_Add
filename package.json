@@ -4,7 +4,7 @@
   "description": "Pruebas Automatizadas AddInmobiliario, CI-CD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "keywords": [
     "CI-CD",
@@ -13,6 +13,11 @@
   "author": "Mariela Hurtado",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^7.5.0"
+    "cypress": "^7.5.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mariela2020/CypressQA_Add"
   }
 }

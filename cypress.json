@@ -1,0 +1,6 @@
+{
+    "experimentalNetworkStubbing": true,
+    "chromeWebSecurity": false,
+    
+    "video":false
+}
